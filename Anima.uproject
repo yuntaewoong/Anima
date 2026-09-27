@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1bd2a6b7-2ab8-4a7c-adf6-87bcaa9e453b}",
+	"Category": "Games",
+	"Description": "Anima",
+	"Modules": [
+		{
+			"Name": "Anima",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": ["Editor"]
+		}
+	]
+}

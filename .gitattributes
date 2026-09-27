@@ -1,0 +1,6 @@
+# Normalize source text; preserve Windows launchers and Unreal binary assets.
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.uasset binary
+*.umap binary

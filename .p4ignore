@@ -1,0 +1,33 @@
+# Git internal data
+.git/
+
+# Generated project and plugin files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.idea/
+.vscode/
+.../Binaries/
+.../Intermediate/
+.../Saved/
+.../DerivedDataCache/
+
+# Generated IDE files and local settings
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.vcxproj
+*.vcxproj.filters
+*.csproj
+.vsconfig
+.p4config
+.p4config.txt
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

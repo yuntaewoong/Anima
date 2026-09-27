@@ -1,0 +1,47 @@
+# Unreal-generated output (also applies to source plugins)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE-generated projects and local preferences
+.vs/
+.idea/
+.vscode/
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.csproj
+.vsconfig
+
+# Local Perforce connection settings
+.p4config
+.p4config.txt
+.p4tickets
+.p4trust
+
+# Local secrets and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Engine distributions must stay outside this project repository
+/InstalledBuild/
+/Engine/
+
+# Keep Source, Config, Content, Build, and plugin source/assets tracked.
+# Binary-only plugins need an explicit exception for their Binaries folder.
